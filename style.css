@@ -1,0 +1,219 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+
+
+body {
+    background-color: #F3E5D8;  
+}
+  
+main {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 20%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-bottom: 2.5%;
+    padding-top: 2.5%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+
+}
+
+/*Styling for h1*/
+header h1 {
+    font-family: 'Young Serif';  
+}
+
+
+/*Styling for intro*/
+.intro p {
+    color: #73829A;
+    font-family: Outfit;
+    font-weight: 300;
+    font-size: small;
+    line-height: 1.6;
+}
+
+
+/*Styling for preparation time*/
+.prep-time {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #FFF7FB;
+    border-radius: 15px;
+    font-family: Outfit;
+   
+}
+
+.prep-time h3 {
+    color: #762B49;
+    font-weight: 600;
+    font-size: medium
+}
+
+.prep-time ul {
+    color: #73829A;
+    font-size: small;
+    padding-left: 5%;
+    
+}
+
+.prep-time ul li::marker {
+    color: #762B49;
+}
+
+.prep-time li {
+    padding: 5px;
+}
+
+.prep-time span {
+    font-weight: 550;
+    color: darkslategrey
+}
+
+
+/*Styling for ingredients*/
+.ingredients {
+    border-bottom: #E0E0E0  solid;
+}
+
+.ingredients h2 {
+    color: #7A3F2F
+}
+
+.ingredients ul {
+    padding-left: 5%;
+}
+
+.ingredients ul li::marker {
+    color: #762B49;
+}
+
+.ingredients li {
+    color: #73829A;;
+    font-family: Outfit;
+    font-size: small;
+    padding: 5px;
+   
+}
+
+
+/*Styling for instructions*/
+.instructions {
+    border-bottom: #E0E0E0  solid;
+}
+
+.instructions h2 {
+    color: #7A3F2F
+}
+
+.instructions ol {
+    padding-left: 5%;
+}
+
+.instructions ol li::marker {
+    color: #762B49;
+    font-family: sans-serif;
+}
+
+.instructions li {
+    color: #73829A;
+    font-family: Outfit;
+    font-size: small;
+    padding: 5px;
+}
+
+.instructions li span {
+   font-weight: bold;
+    color:darkslategrey;
+}
+
+/*Grid for nutrition*/
+.nutrition .nutrition-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  
+}
+
+.nutrition h2 {
+    color:  #7A3F2F;
+}
+
+.nutrition p {
+    color: #73829A;
+    font-family: Outfit;
+    font-size: small;
+}
+
+/*Styling Category Coulumn */
+.nutrition .nutrition-grid .cat1, .cat2, .cat3, .cat4 {
+    grid-row: 1 / 5;
+    grid-column: 1/2;
+    border-bottom:  #E0E0E0  solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    color: #73829A;
+    font-family: Outfit;
+    font-size: small;
+
+}
+
+/*Stylinh value column*/
+.nutrition .nutrition-grid .val1, .val2, .val3, .val4 {
+    grid-row: 1 / 5;
+    grid-column: 2/3;
+    border-bottom:  #E0E0E0  solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #762B49;
+    font-weight: bold;
+    font-family: Outfit;
+    font-size: small;
+}
+
+/*Grid rows*/
+.nutrition .nutrition-grid .cat1 {
+    grid-row: 1;
+}
+.nutrition .nutrition-grid .val1 {
+    grid-row: 1;
+}
+.nutrition .nutrition-grid .cat2 {
+    grid-row: 2;
+}
+.nutrition .nutrition-grid .val2 {
+    grid-row: 2;
+}
+.nutrition .nutrition-grid .cat3 {
+    grid-row: 3;
+}
+.nutrition .nutrition-grid .val3 {
+    grid-row: 3;
+}
+.nutrition .nutrition-grid .cat4 {
+    grid-row: 4;
+}
+.nutrition .nutrition-grid .val4 {
+    grid-row: 4;
+}
+
+
+
+
+   
+
+
+
+
