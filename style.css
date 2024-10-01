@@ -11,13 +11,13 @@ body {
 main {
     background-color: #FFFFFF;
     border-radius: 15px;
-    margin-left: 20vw;
-    margin-right: 20vw;
+    margin: 0 auto;
     margin-bottom: 20vw;
     padding-left: 2.5vw;
     padding-right: 2.5vw;
     padding-bottom: 2.5vw;
     padding-top: 2.5vw;
+    width: 80vw;
     max-width: 80vw;
     min-width: 60vw;
 }
