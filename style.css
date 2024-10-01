@@ -18,7 +18,8 @@ main {
     padding-right: 2.5vw;
     padding-bottom: 2.5vw;
     padding-top: 2.5vw;
-    min-width: 80vw;
+    max-width: 80vw;
+    min-width: 60vw;
 }
 
 img {
